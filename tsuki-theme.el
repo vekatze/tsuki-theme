@@ -7,25 +7,25 @@
 ;; A color theme for Emacs.
 ;;; Code:
 
-(defun semiquote (ast)
+(defun tsuki-theme--semiquote (ast)
   (if (and (listp ast) (not (eq (car ast) 'quote)))
       (cons 'list (mapcar #'semiquote ast))
     ast))
 
-(defun face-spec-modifier (face-spec)
+(defun tsuki-theme--face-spec-modifier (face-spec)
   (let ((face (nth 0 face-spec))
         (spec (nth 1 face-spec)))
-    (semiquote `(',face ((t ,spec))))))
+    (tsuki-theme--semiquote `(',face ((t ,spec))))))
 
-(defmacro define-theme (theme-name palette face-spec-list)
+(defmacro tsuki-theme--define-theme (theme-name palette face-spec-list)
   (declare (indent defun))
   `(let ,palette
      (deftheme ,theme-name)
      (custom-theme-set-faces
       ',theme-name
-      ,@(mapcar #'face-spec-modifier face-spec-list))))
+      ,@(mapcar #'tsuki-theme--face-spec-modifier face-spec-list))))
 
-(define-theme tsuki
+(tsuki-theme--define-theme tsuki
   ((black "#222222")
    (gray "#888888")
    (white "#eeeeee")
