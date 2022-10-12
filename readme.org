@@ -1,11 +1,12 @@
 * Tsuki Theme for Emacs
-Tsuki is a color theme for Emacs. A set of reflective colors that lights us into satori.
-
-[[/screenshot.png?raw=true]]
 
 #+begin_quote
 冥きより冥き道にぞ入りぬべき遥かに照らせ山の端の月
 #+end_quote
+
+Tsuki is a color theme for Emacs. A set of reflective colors that lights us into satori.
+
+[[/screenshot.png?raw=true]]
 
 ** Install
 TBD
