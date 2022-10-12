@@ -7,6 +7,8 @@
 ** screenshot
 [[/screenshot.png?raw=true][tsuki-theme]]
 
+[[/screenshot.png]]
+
 ** acknowledgements
 - [[https://github.com/tee3/unobtrusive-magit-theme][tee3/unobtrusive-magit-theme]] (magit-related faces)
 - [[https://github.com/jasonm23/autothemer][jasonm23/autothemer]] (generating missing faces)
