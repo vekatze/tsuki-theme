@@ -5,7 +5,7 @@
 #+end_quote
 
 ** screenshot
-[[/screenshot.png]]
+[[/screenshot.png?raw=true]]
 
 ** acknowledgements
 - [[https://github.com/tee3/unobtrusive-magit-theme][tee3/unobtrusive-magit-theme]] (magit-related faces)
