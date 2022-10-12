@@ -1,4 +1,4 @@
-;;; tsuki-theme.el --- A set of tetradic colors that lights us into satori -*- lexical-binding: t -*-
+;;; tsuki-theme.el --- A set of reflective colors that lights us into satori -*- lexical-binding: t -*-
 ;; Version: 1.0.0
 ;; Package-Requires: ((emacs "26.1"))
 ;; URL: https://github.com/vekatze/tsuki-theme.el
