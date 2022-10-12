@@ -13,7 +13,7 @@ TBD
 ** Pros
 - Extensive use of background colors for faster structure recognition (YMMV)
 - Tetradically chosen colors for better contrast
-  - e.g. ~blue = #78c8f0~ derives ~magenta = #dc78f0, orange = #f0a078, green=#8cf0f8~
+  - e.g. ~blue = #78c8f0~ derives ~magenta = #dc78f0, orange = #f0a078, green=#8cf078~
 - Great Kawaii Experience
 
 ** Cons
