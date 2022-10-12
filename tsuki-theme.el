@@ -1,9 +1,9 @@
-;;; tsuki-theme.el --- A color theme -*- lexical-binding: t -*-
+;;; tsuki-theme.el --- Colors for Seekers -*- lexical-binding: t -*-
 ;; Version: 1.0.0
 ;; Package-Requires: ((emacs "26.1"))
 ;; URL: https://github.com/vekatze/tsuki-theme.el
 ;;; Commentary:
-;; A color theme with the spirit of Heian truth seekers.
+;; A color theme for Emacs.
 ;;; Code:
 
 (defun semiquote (ast)
