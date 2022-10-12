@@ -1,12 +1,21 @@
-* tsuki-theme
+* Tsuki Theme for Emacs
 
 #+begin_quote
 冥きより冥き道にぞ入りぬべき遥かに照らせ山の端の月
 #+end_quote
 
-** screenshot
+** Screenshot
 [[/screenshot.png?raw=true]]
 
-** acknowledgements
-- [[https://github.com/tee3/unobtrusive-magit-theme][tee3/unobtrusive-magit-theme]] (magit-related faces)
-- [[https://github.com/jasonm23/autothemer][jasonm23/autothemer]] (generating missing faces)
+** Pros
+- Extensive use of background colors for faster structure recognition (YMMV)
+- Tetradically chosen colors for better contrasts
+  - e.g. ~blue = #78c8f0~ derives ~magenta = #dc78f0, orange = #f0a078, green=#8cf0f8~
+
+** Cons
+- Works only in GUI
+- Package supports are currently limited for my use (PRs are welcomed)
+
+** Acknowledgements
+- [[https://github.com/tee3/unobtrusive-magit-theme][tee3/unobtrusive-magit-theme]] (for magit-related faces)
+- [[https://github.com/jasonm23/autothemer][jasonm23/autothemer]] (for generating faces)
