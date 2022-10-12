@@ -18,7 +18,8 @@ TBD
 
 ** Cons
 - Works only in GUI
-- External package support is limited (PRs are welcomed)
+- External package support is limited
+  - PRs are welcomed
 
 ** Notes
 *** mini-frame
@@ -30,7 +31,11 @@ If you're using [[https://github.com/muffinmad/emacs-mini-frame][mini-frame]], y
 #+end_src
 
 ** Acknowledgements
-- [[https://github.com/tee3/unobtrusive-magit-theme][tee3/unobtrusive-magit-theme]] (magit-related faces)
-- [[https://github.com/jasonm23/autothemer][jasonm23/autothemer]] (generating faces)
-- [[https://github.com/nashamri/spacemacs-theme][nashamri/spacemacs-theme]] (the idea of showing syntactic constructs with colored background)
-- [[https://www.canva.com/colors/color-wheel/][Color wheel]] (choosing tetradic colors)
+- [[https://github.com/tee3/unobtrusive-magit-theme][tee3/unobtrusive-magit-theme]]
+  - magit-related faces
+- [[https://github.com/jasonm23/autothemer][jasonm23/autothemer]]
+  - generating faces
+- [[https://github.com/nashamri/spacemacs-theme][nashamri/spacemacs-theme]]
+  - the idea of showing syntactic constructs with colored background
+- [[https://www.canva.com/colors/color-wheel/][Color wheel]]
+  - choosing tetradic colors
