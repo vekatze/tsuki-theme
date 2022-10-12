@@ -1,0 +1,5 @@
+* tsuki-theme
+
+#+begin_quote
+くらきよりくらきみちにぞいりぬべきはるかにてらせやまのはのつき
+#+end_quote
