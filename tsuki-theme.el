@@ -16,16 +16,16 @@
         (spec (nth 1 face-spec)))
     (semiquote `(',face ((t ,spec))))))
 
-(defmacro define-theme (theme-name theme-description palette face-spec-list)
+(defmacro define-theme (theme-name palette face-spec-list)
   (declare (indent defun))
   `(let ,palette
-     (deftheme ,theme-name ,theme-description)
+     (deftheme ,theme-name)
      (custom-theme-set-faces
       ',theme-name
       ,@(mapcar #'face-spec-modifier face-spec-list))))
 
 ;; magit-related color inheritance is based on https://github.com/tee3/unobtrusive-magit-theme
-(define-theme tsuki "As the world sank, I found you."
+(define-theme tsuki
   ((black "#222222")
    (gray "#888888")
    (white "#eeeeee")
