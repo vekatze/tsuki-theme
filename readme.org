@@ -20,6 +20,14 @@ TBD
 - Works only in GUI
 - External package support is limited (PRs are welcomed)
 
+** Notes
+*** mini-frame
+If you're using [[https://github.com/muffinmad/emacs-mini-frame][mini-frame]], you may want to do something like this:
+
+#+begin_src emacs-lisp
+(setq mini-frame-internal-border-color (tsuki-theme-get-color 'blue tsuki-theme-palette)) ; or use Customize
+#+end_src
+
 ** Acknowledgements
 - [[https://github.com/tee3/unobtrusive-magit-theme][tee3/unobtrusive-magit-theme]] (magit-related faces)
 - [[https://github.com/jasonm23/autothemer][jasonm23/autothemer]] (generating faces)

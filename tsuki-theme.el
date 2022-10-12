@@ -9,7 +9,7 @@
 
 (defun tsuki-theme--semiquote (ast)
   (if (and (listp ast) (not (eq (car ast) 'quote)))
-      (cons 'list (mapcar #'semiquote ast))
+      (cons 'list (mapcar #'tsuki-theme--semiquote ast))
     ast))
 
 (defun tsuki-theme--face-spec-modifier (face-spec)
@@ -19,44 +19,49 @@
 
 (defmacro tsuki-theme--define-theme (theme-name palette face-spec-list)
   (declare (indent defun))
-  `(let ,palette
+  `(let ,(eval palette)
      (deftheme ,theme-name)
      (custom-theme-set-faces
       ',theme-name
       ,@(mapcar #'tsuki-theme--face-spec-modifier face-spec-list))))
 
+(defvar tsuki-theme-palette
+  '((black "#222222")
+    (gray "#888888")
+    (white "#eeeeee")
+
+    (black-tinted "#032536")
+    (gray-tinted "#538aa6")
+
+    (red-light "#f43753")
+    (blue-light "#a8d8f0")
+    (magenta-light "#e4a8f0")
+    (orange-light "#f0c0a8")
+    (green-light "#b4f0a8")
+
+    (red "#c5152f")
+    (blue "#78c8f0")
+    (magenta "#dc78f0")
+    (orange "#f0a078")
+    (green "#8cf078")
+
+    (red-dim "#79313c")
+    (blue-dim "#075175")
+    (magenta-dim "#620775")
+    (orange-dim "#752b07")
+    (green-dim "#1a7507")
+
+    (red-dark "#5E262E")
+    (blue-dark "#042f45")
+    (magenta-dark "#3a0445")
+    (orange-dark "#451a04")
+    (green-dark "#0f4504")))
+
+(defun tsuki-theme-get-color (color palette)
+  (cadr (assoc color palette)))
+
 (tsuki-theme--define-theme tsuki
-  ((black "#222222")
-   (gray "#888888")
-   (white "#eeeeee")
-
-   (black-tinted "#032536")
-   (gray-tinted "#538aa6")
-
-   (red-light "#f43753")
-   (blue-light "#a8d8f0")
-   (magenta-light "#e4a8f0")
-   (orange-light "#f0c0a8")
-   (green-light "#b4f0a8")
-
-   (red "#c5152f")
-   (blue "#78c8f0")
-   (magenta "#dc78f0")
-   (orange "#f0a078")
-   (green "#8cf078")
-
-   (red-dim "#79313c")
-   (blue-dim "#075175")
-   (magenta-dim "#620775")
-   (orange-dim "#752b07")
-   (green-dim "#1a7507")
-
-   (red-dark "#5E262E")
-   (blue-dark "#042f45")
-   (magenta-dark "#3a0445")
-   (orange-dark "#451a04")
-   (green-dark "#0f4504"))
-
+  tsuki-theme-palette
   ((ansi-color-black (:foreground black :background black))
    (ansi-color-blue (:foreground blue-dark :background blue-dark))
    (ansi-color-bright-black (:foreground black :background black))
