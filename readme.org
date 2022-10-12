@@ -25,7 +25,7 @@ TBD
 If you're using [[https://github.com/muffinmad/emacs-mini-frame][mini-frame]], you may want to do something like this:
 
 #+begin_src emacs-lisp
-;; Set mini-frame's border color to be blue (You can also use Customize, of course)
+;; You can also use Customize, of course
 (setq mini-frame-internal-border-color (tsuki-theme-get-color 'blue tsuki-theme-palette))
 #+end_src
 
