@@ -1,16 +1,19 @@
 * Tsuki Theme for Emacs
 
+[[/screenshot.png?raw=true]]
+
 #+begin_quote
 冥きより冥き道にぞ入りぬべき遥かに照らせ山の端の月
 #+end_quote
 
-** Screenshot
-[[/screenshot.png?raw=true]]
+** Install
+TBD
 
 ** Pros
 - Extensive use of background colors for faster structure recognition (YMMV)
 - Tetradically chosen colors for better contrasts
   - e.g. ~blue = #78c8f0~ derives ~magenta = #dc78f0, orange = #f0a078, green=#8cf0f8~
+- Kawaii
 
 ** Cons
 - Works only in GUI
