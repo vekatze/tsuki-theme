@@ -24,7 +24,6 @@
       ',theme-name
       ,@(mapcar #'face-spec-modifier face-spec-list))))
 
-;; magit-related color inheritance is based on https://github.com/tee3/unobtrusive-magit-theme
 (define-theme tsuki
   ((black "#222222")
    (gray "#888888")
