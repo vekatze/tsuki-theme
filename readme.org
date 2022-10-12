@@ -2,10 +2,6 @@
 
 [[/screenshot.png?raw=true]]
 
-#+begin_quote
-冥きより冥き道にぞ入りぬべき遥かに照らせ山の端の月 --- 和泉式部
-#+end_quote
-
 ** Install
 TBD
 
@@ -26,3 +22,7 @@ TBD
 - [[https://www.canva.com/colors/color-wheel/][Color wheel]] (choosing tetradic colors)
 - [[https://www.streetfighter.com/6/][Street Fighter 6]] (bordered & colored text boxes like "COUNTER"; I distilled them into mode-lines)
 - [[https://en.wikipedia.org/wiki/Izumi_Shikibu][Izumi Shikibu]] (foundational inspiration)
+
+#+begin_quote
+冥きより冥き道にぞ入りぬべき遥かに照らせ山の端の月
+#+end_quote
