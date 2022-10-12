@@ -18,7 +18,7 @@ TBD
 
 ** Cons
 - Works only in GUI
-- Package supports are currently limited for my use (PRs are welcomed)
+- External package support is limited (PRs are welcomed)
 
 ** Acknowledgements
 - [[https://github.com/tee3/unobtrusive-magit-theme][tee3/unobtrusive-magit-theme]] (for magit-related faces)
