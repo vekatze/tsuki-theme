@@ -5,8 +5,6 @@
 #+end_quote
 
 ** screenshot
-[[/screenshot.png?raw=true][tsuki-theme]]
-
 [[/screenshot.png]]
 
 ** acknowledgements
