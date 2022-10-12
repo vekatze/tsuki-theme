@@ -2,6 +2,7 @@
 ;; Version: 1.0.0
 ;; Package-Requires: ((emacs "26.1"))
 ;; URL: https://github.com/vekatze/tsuki-theme.el
+;; SPDX-License-Identifier: GPL-3.0-or-later
 ;;; Commentary:
 ;; A color theme for Emacs.
 ;;; Code:
