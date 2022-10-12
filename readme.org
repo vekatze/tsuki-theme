@@ -1,6 +1,6 @@
 * Tsuki Theme for Emacs
 
-Tsuki is a color theme for Emacs, inspired by the mid-Heian period poet [[https://en.wikipedia.org/wiki/Izumi_Shikibu][Izumi Shikibu]].
+Tsuki is a color theme for Emacs.
 
 [[/screenshot.png?raw=true]]
 

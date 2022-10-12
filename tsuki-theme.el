@@ -292,6 +292,7 @@
    (magit-refname (:inherit 'change-log-list))
    (magit-refname-stash (:inherit 'magit-refname))
    (magit-refname-wip (:inherit 'magit-refname))
+   (magit-header-line (:foreground blue-light :background blue-dim :box (:color blue :line-width 1)))
    (magit-section-heading (:inherit 'font-lock-type-face))
    (magit-section-heading-secondary-heading (:inherit 'magit-section-heading-selection))
    (magit-section-heading-selection (:weight 'bold))
