@@ -24,5 +24,5 @@ TBD
 - [[https://github.com/jasonm23/autothemer][jasonm23/autothemer]] (generating faces)
 - [[https://github.com/nashamri/spacemacs-theme][nashamri/spacemacs-theme]] (the idea of showing syntactic constructs with colored background)
 - [[https://www.canva.com/colors/color-wheel/][Color wheel]] (choosing tetradic colors)
-- [[https://www.streetfighter.com/6/][Street Fighter 6]] (bordered & colored text box like "COUNTER"; I distilled them into a mode-line)
+- [[https://www.streetfighter.com/6/][Street Fighter 6]] (bordered & colored text boxes like "COUNTER"; I distilled them into mode-lines)
 - [[https://en.wikipedia.org/wiki/Izumi_Shikibu][Izumi Shikibu]] (foundational inspiration)
