@@ -25,3 +25,4 @@ TBD
 - [[https://github.com/nashamri/spacemacs-theme][nashamri/spacemacs-theme]] (the idea of using background colors)
 - [[https://www.canva.com/colors/color-wheel/][Color wheel]] (choosing tetradic colors)
 - [[https://www.streetfighter.com/6/][Street Fighter 6]] (bordered & colored text box like "COUNTER"; I distilled them into a mode-line)
+- [[https://en.wikipedia.org/wiki/Izumi_Shikibu][Izumi Shikibu]] (foundational inspiration)
