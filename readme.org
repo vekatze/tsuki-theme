@@ -1,6 +1,6 @@
 * Tsuki Theme for Emacs
 
-A color theme for Emacs, inspired by the mid-Heian period poet Izumi Shikibu.
+Tsuki is a color theme for Emacs, inspired by the mid-Heian period poet [[https://en.wikipedia.org/wiki/Izumi_Shikibu][Izumi Shikibu]].
 
 [[/screenshot.png?raw=true]]
 
@@ -27,4 +27,3 @@ TBD
 - [[https://github.com/nashamri/spacemacs-theme][nashamri/spacemacs-theme]] (the idea of showing syntactic constructs with colored background)
 - [[https://www.canva.com/colors/color-wheel/][Color wheel]] (choosing tetradic colors)
 - [[https://www.streetfighter.com/6/][Street Fighter 6]] (bordered & colored text boxes like "COUNTER"; I distilled them into mode-lines)
-- [[https://en.wikipedia.org/wiki/Izumi_Shikibu][Izumi Shikibu]] (foundational inspiration)
