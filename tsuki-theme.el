@@ -3,25 +3,18 @@
 ;; Package-Requires: ((emacs "26.1"))
 ;; URL: https://github.com/vekatze/tsuki-theme.el
 ;;; Commentary:
-;; As the world sank, I found you.
+;; A color theme with the spirit of Heian truth seekers.
 ;;; Code:
 
-;; quasiquote without quote; extracted from autothemer.
-(defun demote (expr)
-  "Demote every list head within EXPR by one element.
-E.g., (a (b c d) e (f g)) -> (list a (list b c d) e (list f g))."
-  (if (listp expr)
-      `(list ,@(mapcar
-                (lambda (it)
-                  (if (and (listp it) (not (eq (car it) 'quote)))
-                      (demote it) it))
-                expr))
-    expr))
+(defun semiquote (ast)
+  (if (and (listp ast) (not (eq (car ast) 'quote)))
+      (cons 'list (mapcar #'semiquote ast))
+    ast))
 
 (defun face-spec-modifier (face-spec)
   (let ((face (nth 0 face-spec))
         (spec (nth 1 face-spec)))
-    (demote `(',face ((t ,spec))))))
+    (semiquote `(',face ((t ,spec))))))
 
 (defmacro define-theme (theme-name theme-description palette face-spec-list)
   (declare (indent defun))
@@ -29,7 +22,7 @@ E.g., (a (b c d) e (f g)) -> (list a (list b c d) e (list f g))."
      (deftheme ,theme-name ,theme-description)
      (custom-theme-set-faces
       ',theme-name
-      ,@(mapcar #'face-spec-modifier `,face-spec-list))))
+      ,@(mapcar #'face-spec-modifier face-spec-list))))
 
 ;; magit-related color inheritance is based on https://github.com/tee3/unobtrusive-magit-theme
 (define-theme tsuki "As the world sank, I found you."
