@@ -13,7 +13,6 @@ TBD
 - Extensive use of background colors for faster structure recognition (YMMV)
 - Tetradically chosen colors for better contrast
   - e.g. ~blue = #78c8f0~ derives ~magenta = #dc78f0, orange = #f0a078, green=#8cf0f8~
-- No dependency on other packages
 - Kawaii appearance
 
 ** Cons
@@ -21,5 +20,7 @@ TBD
 - External package support is limited (PRs are welcomed)
 
 ** Acknowledgements
-- [[https://github.com/tee3/unobtrusive-magit-theme][tee3/unobtrusive-magit-theme]] (for magit-related faces)
-- [[https://github.com/jasonm23/autothemer][jasonm23/autothemer]] (for generating faces)
+- [[https://github.com/tee3/unobtrusive-magit-theme][tee3/unobtrusive-magit-theme]] (magit-related faces)
+- [[https://github.com/jasonm23/autothemer][jasonm23/autothemer]] (generating faces)
+- [[https://github.com/nashamri/spacemacs-theme][nashamri/spacemacs-theme]] (the idea of using background colors)
+- https://www.canva.com/colors/color-wheel/ (choosing tetradic colors)
