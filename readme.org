@@ -42,5 +42,5 @@ If you're using [[https://github.com/muffinmad/emacs-mini-frame][mini-frame]], y
   - choosing tetradic colors
 
 ** See Also
-- [[https://github.com/vekatze/tsuki-theme.el][vekatze/ruri.el]]
+- [[https://github.com/vekatze/ruri.el][vekatze/ruri.el]]
   - the mode-line in the screenshot
