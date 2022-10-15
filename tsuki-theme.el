@@ -52,7 +52,6 @@
     (green "#8cf078")
 
     (blue-dim "#075175")
-    (orange-dim "#752b07")
     (green-dim "#1a7507")
 
     (blue-dark "#042f45")
@@ -206,7 +205,7 @@
    (header-line (:inherit 'mode-line))
    (help-for-help-header (:height 1.26))
    (highlight (:background blue-dim))
-   (holiday (:background orange-dim))
+   (holiday (:background orange-dark))
    (homoglyph (:foreground blue-light))
    (ibuffer-locked-buffer (:foreground orange-light))
    (ido-indicator (:width 'condensed :foreground green :background red-light))
@@ -216,7 +215,7 @@
    (info-node (:weight 'bold :slant 'italic :foreground white))
    (isearch (:foreground red-accent :background red-dark))
    ;; (isearch (:background red-accent))
-   (isearch-fail (:background orange-dim))
+   (isearch-fail (:background orange-dark))
    (isearch-group-1 (:foreground red-dark :background magenta-light))
    (isearch-group-2 (:foreground red-dark :background red-light))
    (lazy-highlight (:background blue-dim))
