@@ -1,4 +1,5 @@
 ;;; tsuki-theme.el --- A set of reflective colors that lights us into satori -*- lexical-binding: t -*-
+;; Author: vekatze <vekatze@icloud.com>
 ;; Package-Requires: ((emacs "26.1"))
 ;; SPDX-License-Identifier: GPL-3.0-or-later
 ;; URL: https://github.com/vekatze/tsuki-theme.el
