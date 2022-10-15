@@ -28,7 +28,7 @@ If you're using [[https://github.com/muffinmad/emacs-mini-frame][mini-frame]], y
 
 #+begin_src emacs-lisp
 ;; You can also use Customize, of course
-(setq mini-frame-internal-border-color (tsuki-theme-get-color 'blue tsuki-theme-palette))
+(setq mini-frame-internal-border-color (tsuki-theme-get-color 'blue-mid tsuki-theme-palette))
 #+end_src
 
 ** Acknowledgements
