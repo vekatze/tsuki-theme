@@ -40,27 +40,29 @@
     (black-tinted "#032536")
     (gray-tinted "#538aa6")
 
+    ;; non-tetradic
     (red-accent "#f43753")
-
     (red-light "#f5a4b0")
+    (red "#c5152f")
+    (red-dim "#79313c")
+    (red-dark "#5E262E")
+
+    ;; tetradic
     (blue-light "#a8d8f0")
     (magenta-light "#e4a8f0")
     (orange-light "#f0c0a8")
     (green-light "#b4f0a8")
 
-    (red "#c5152f")
     (blue "#78c8f0")
     (magenta "#dc78f0")
     (orange "#f0a078")
     (green "#8cf078")
 
-    (red-dim "#79313c")
     (blue-dim "#075175")
     (magenta-dim "#620775")
     (orange-dim "#752b07")
     (green-dim "#1a7507")
 
-    (red-dark "#5E262E")
     (blue-dark "#042f45")
     (magenta-dark "#3a0445")
     (orange-dark "#451a04")
