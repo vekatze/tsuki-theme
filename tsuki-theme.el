@@ -52,7 +52,6 @@
     (green "#8cf078")
 
     (blue-dim "#075175")
-    (magenta-dim "#620775")
     (orange-dim "#752b07")
     (green-dim "#1a7507")
 
@@ -98,7 +97,7 @@
    (corfu-current (:foreground white :background blue-dim))
    (corfu-default (:background black))
    (cursor (:foreground blue :background blue))
-   (custom-button (:foreground magenta-light :background magenta-dim :box (:color magenta :line-width 1)))
+   (custom-button (:foreground magenta-light :background magenta-dark :box (:color magenta :line-width 1)))
    (custom-button-mouse (:inherit 'custom-button))
    (custom-button-pressed (:inherit 'custom-button))
    (custom-changed (:foreground white :background blue-dark))
