@@ -6,7 +6,7 @@
 
 Tsuki is a color theme for Emacs. A set of reflective colors that lights us into satori.
 
-[[/screenshot.png?raw=true]]
+[[/screenshots/haskell.png?raw=true]]
 
 ** Installation
 Please use [[https://github.com/radian-software/straight.el][straight.el]] or something like that.
