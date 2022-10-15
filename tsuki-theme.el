@@ -68,10 +68,10 @@
     (red-dark "#5E262E")
 
     ;; aligned
-    (red-light "#F0A8B3")
-    (red-accent"#f43753")
-    (red-mid "#c5152f")
-    (red-dark "#5E262E")
+    ;; (red-light "#F0A8B3")
+    ;; (red-accent"#f43753")
+    ;; (red-mid "#c5152f")
+    ;; (red-dark "#5E262E")
 
     ))
 
@@ -223,7 +223,8 @@
    (ido-subdir (:foreground red-light))
    (info-menu-star (:foreground red-light))
    (info-node (:weight 'bold :slant 'italic :foreground white))
-   (isearch (:background red-mid))
+   (isearch (:foreground red-accent :background red-dark))
+   ;; (isearch (:background red-mid))
    (isearch-fail (:background orange-dim))
    (isearch-group-1 (:foreground red-dark :background magenta-light))
    (isearch-group-2 (:foreground red-dark :background red-light))
