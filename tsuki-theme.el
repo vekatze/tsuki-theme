@@ -168,7 +168,7 @@
    (font-lock-type-face (:foreground green-light :background green-dark))
    (font-lock-variable-name-face (:foreground magenta-light :background magenta-dark))
    (font-lock-warning-face (:foreground red-light :background red-dark))
-   (fringe (:background black))
+   (fringe (:foreground gray :background black))
    (git-commit-comment-action (:inherit 'font-lock-comment-face))
    (git-commit-comment-branch-local (:inherit 'font-lock-comment-face))
    (git-commit-comment-branch-remote (:inherit 'font-lock-comment-face))
