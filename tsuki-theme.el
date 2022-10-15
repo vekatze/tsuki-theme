@@ -1,8 +1,8 @@
 ;;; tsuki-theme.el --- A set of reflective colors that lights us into satori -*- lexical-binding: t -*-
-;; Version: 1.0.0
 ;; Package-Requires: ((emacs "26.1"))
-;; URL: https://github.com/vekatze/tsuki-theme.el
 ;; SPDX-License-Identifier: GPL-3.0-or-later
+;; URL: https://github.com/vekatze/tsuki-theme.el
+;; Version: 1.0.0
 ;;; Commentary:
 ;; A color theme for Emacs.
 ;;; Code:
@@ -15,21 +15,26 @@
                    (file-name-directory load-file-name))))
 
 (defun tsuki-theme--semiquote (ast)
+  "Constructs an \"interpretable\" version of given AST.
+
+For example, this function transforms (a 'b c) into a (list a 'b c)."
   (if (and (listp ast) (not (eq (car ast) 'quote)))
       (cons 'list (mapcar #'tsuki-theme--semiquote ast))
     ast))
 
 (defun tsuki-theme--face-spec-modifier (face-spec)
+  "Modify FACE-SPEC to match with the form required by `custom-theme-set-faces'."
   (let ((face (nth 0 face-spec))
         (spec (nth 1 face-spec)))
     (tsuki-theme--semiquote `(',face ((t ,spec))))))
 
-(defmacro tsuki-theme--define-theme (theme-name palette face-spec-list)
+(defmacro tsuki-theme--define-theme (theme palette face-spec-list)
+  "Define a THEME using PALETTE and FACE-SPEC-LIST."
   (declare (indent defun))
   `(let ,(eval palette)
-     (deftheme ,theme-name)
+     (deftheme ,theme)
      (custom-theme-set-faces
-      ',theme-name
+      ',theme
       ,@(mapcar #'tsuki-theme--face-spec-modifier face-spec-list))))
 
 (defvar tsuki-theme-palette
@@ -61,6 +66,7 @@
     (dark-red "#5E262E")))
 
 (defun tsuki-theme-get-color (color palette)
+  "Get certain COLOR from PALETTE."
   (cadr (assoc color palette)))
 
 (tsuki-theme--define-theme tsuki
