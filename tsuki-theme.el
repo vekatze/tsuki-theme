@@ -16,7 +16,7 @@
                    (file-name-directory load-file-name))))
 
 (defun tsuki-theme--semiquote (ast)
-  "Constructs an \"interpretable\" version of given AST.
+  "Constructs an \"evaluatable\" version of given AST.
 
 For example, this function transforms (a 'b c) into a (list a 'b c)."
   (if (and (listp ast) (not (eq (car ast) 'quote)))
