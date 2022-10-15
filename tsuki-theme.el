@@ -110,7 +110,6 @@
    (diff-added (:foreground light-green :background dark-green))
    (diff-changed (:foreground light-magenta :background dark-magenta))
    (diff-context (:foreground gray :extend t))
-   ;; (diff-context (:extend t))
    (diff-error (:weight 'bold :inherit 'error))
    (diff-file-header (:inherit font-lock-keyword-face))
    (diff-header (:foreground mid-blue :background dark-blue))
