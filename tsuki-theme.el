@@ -126,7 +126,7 @@ For example, this function transforms (a 'b c) into a (list a 'b c)."
    (diff-hl-insert (:inherit 'diff-added))
    (diff-hl-reverted-hunk-highlight (:inverse-video t))
    (diff-refine-changed (:background mid-green))
-   (diff-removed (:foreground light-red :background dark-red))
+   (diff-removed (:foreground mid-red :background dark-red))
    (dired-broken-symlink (:weight 'bold :inherit 'error))
    (edebug-disabled-breakpoint (:extend t :background dark-green))
    (embark-verbose-indicator-title (:inherit 'mode-line-active))
