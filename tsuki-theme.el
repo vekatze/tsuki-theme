@@ -47,6 +47,7 @@ For example, this function transforms (a 'b c) into a (list a 'b c)."
 
     (nibi "#538aa6")
     (sumi "#032536")
+    (kuchiba "#a66f53")
 
     (light-blue "#a8d8f0")
     (light-magenta "#e4a8f0")
@@ -166,7 +167,7 @@ For example, this function transforms (a 'b c) into a (list a 'b c)."
    (font-lock-doc-face (:inherit 'font-lock-comment-face))
    (font-lock-function-name-face (:foreground light-magenta :background dark-magenta))
    (font-lock-keyword-face (:foreground mid-blue :background dark-blue))
-   (font-lock-preprocessor-face (:foreground mid-orange :background dark-orange))
+   (font-lock-preprocessor-face (:foreground kuchiba :background dark-orange))
    (font-lock-string-face (:foreground mid-orange :background dark-orange))
    (font-lock-type-face (:foreground light-green :background dark-green))
    (font-lock-variable-name-face (:foreground light-magenta :background dark-magenta))
