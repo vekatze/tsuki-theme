@@ -429,6 +429,8 @@
    (tty-menu-enabled-face (:weight 'bold :foreground green :background blue-dim))
    (tty-menu-selected-face (:background red-light))
    (vertical-border (:foreground blue))
+   (vundo-default (:foreground gray))
+   (vundo-highlight (:foreground green-light :background green-dark :inherit 'vundo-default))
    (warning (:foreground orange :background orange-dark))
    (which-func (:foreground blue-dark))
    (whitespace-big-indent (:foreground red :background red-light))
