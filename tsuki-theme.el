@@ -164,7 +164,7 @@ For example, this function transforms (a 'b c) into a (list a 'b c)."
    (font-lock-builtin-face (:foreground light-magenta :background dark-magenta))
    (font-lock-comment-face (:foreground nibi :background dark-blue))
    (font-lock-constant-face (:foreground light-magenta :background dark-magenta))
-   (font-lock-doc-face (:extend t :inherit 'font-lock-comment-face))
+   (font-lock-doc-face (:inherit 'font-lock-comment-face))
    (font-lock-function-name-face (:foreground light-magenta :background dark-magenta))
    (font-lock-keyword-face (:foreground mid-blue :background dark-blue))
    (font-lock-preprocessor-face (:foreground kuchiba :background dark-orange))
