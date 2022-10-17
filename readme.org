@@ -11,6 +11,15 @@ Tsuki is a color theme for Emacs. A set of reflective colors that lights us into
 ** Installation
 Please use [[https://github.com/radian-software/straight.el][straight.el]] or something like that.
 
+#+begin_src emacs-lisp
+;; with staright.el
+(use-package tsuki-theme
+  :straight
+  (:host github :repo "vekatze/tsuki-theme")
+  :init
+  (load-theme 'tsuki t))
+#+end_src
+
 ** Pros
 - Extensive use of background colors for faster structure recognition (YMMV)
 - Tetradically chosen colors for better contrast
