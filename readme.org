@@ -12,7 +12,7 @@ Tsuki is a color theme for Emacs. A set of reflective colors that lights us into
 Please use [[https://github.com/radian-software/straight.el][straight.el]] or something like that.
 
 #+begin_src emacs-lisp
-;; with staright.el
+;; with straight.el
 (use-package tsuki-theme
   :straight
   (:host github :repo "vekatze/tsuki-theme")
