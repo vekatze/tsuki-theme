@@ -160,6 +160,8 @@ For example, this function transforms (a 'b c) into a (list a 'b c)."
    (flycheck-warning (:background dark-magenta :underline (:style 'wave :color light-magenta)))
    (flymake-error (:background dark-red :underline (:style 'wave :color mid-red)))
    (flymake-note (:background dark-green :underline (:style 'wave :color light-green)))
+   (flymake-posframe-border-face (:foreground mid-blue))
+   (flymake-posframe-face (:foreground mid-blue :inherit 'tooltip))
    (flymake-warning (:background dark-magenta :underline (:style 'wave :color light-magenta)))
    (font-lock-builtin-face (:foreground light-magenta :background dark-magenta))
    (font-lock-comment-face (:foreground nibi :background dark-blue))
