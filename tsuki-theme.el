@@ -163,6 +163,7 @@ For example, this function transforms (a 'b c) into a (list a 'b c)."
    (diff-refine-changed (:background mid-green))
    (diff-removed (:foreground mid-red :background dark-red))
    (dired-broken-symlink (:weight 'bold :inherit 'error))
+   (dired-directory (:inherit font-lock-keyword-face))
    (edebug-disabled-breakpoint (:extend t :background dark-green))
    (embark-verbose-indicator-title (:inherit 'mode-line-active))
    (embark-verbose-indicator-title (:inherit 'mode-line-active))
