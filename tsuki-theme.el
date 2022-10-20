@@ -384,7 +384,7 @@ For example, this function transforms (a 'b c) into a (list a 'b c)."
    (message-mml (:foreground mid-green))
    (message-separator (:foreground light-blue))
    (mini-popup-border (:inherit 'window-divider))
-   (minibuffer-prompt (:inherit font-lock-function-name-face))
+   (minibuffer-prompt (:inherit font-lock-type-face))
    (mm-command-output (:foreground dark-green))
    (mm-uu-extract (:extend t :foreground white :background dark-green))
    (mode-line (:foreground mid-blue :background tsuki :box (:color mid-blue :line-width 1)))
