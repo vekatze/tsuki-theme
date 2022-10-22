@@ -166,6 +166,8 @@ For example, this function transforms (a 'b c) into a (list a 'b c)."
    (dired-broken-symlink (:weight 'bold :inherit 'error))
    (dired-directory (:inherit font-lock-keyword-face))
    (edebug-disabled-breakpoint (:extend t :background dark-green))
+   (eldoc-box-body (:foreground mid-blue :background dark-blue))
+   (eldoc-box-border (:background mid-blue))
    (embark-verbose-indicator-title (:inherit 'mode-line-active))
    (embark-verbose-indicator-title (:inherit 'mode-line-active))
    (epa-field-body (:slant 'italic :foreground light-blue))
