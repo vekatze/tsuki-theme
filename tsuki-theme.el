@@ -134,6 +134,7 @@ For example, this function transforms (a 'b c) into a (list a 'b c)."
    (corfu-border (:background mid-blue))
    (corfu-current (:foreground white :background tsuki))
    (corfu-default (:background black))
+   (company-tooltip-selection (:background tsuki))
    (cursor (:foreground mid-blue :background mid-blue))
    (custom-button (:foreground light-magenta :background dark-magenta :box (:color mid-magenta :line-width 1)))
    (custom-button-mouse (:inherit 'custom-button))
