@@ -459,6 +459,8 @@ For example, this function transforms (a 'b c) into a (list a 'b c)."
    (shadow (:foreground gray))
    (show-paren-match (:foreground mid-green :background dark-green :underline t))
    (show-paren-mismatch (:foreground mid-red :background dark-red :underline t))
+   (shr-text (:inherit 'default))
+   (shr-code (:inherit 'default))
    (shr-mark (:foreground black :background mid-green))
    (shr-strike-through (:strike-through t))
    (shr-sup (:height 0.8))
