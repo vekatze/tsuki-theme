@@ -205,7 +205,7 @@ For example, this function transforms (a 'b c) into a (list a 'b c)."
    (flymake-warning (:background dark-magenta :underline (:style 'wave :color light-magenta)))
    (font-lock-builtin-face (:foreground light-magenta :background dark-magenta))
    (font-lock-comment-face (:foreground nibi :background dark-blue))
-   (font-lock-constant-face (:foreground light-magenta :background dark-magenta))
+   (font-lock-constant-face (:foreground light-green :background dark-green))
    (font-lock-doc-face (:inherit 'font-lock-preprocessor-face))
    (font-lock-function-name-face (:foreground light-magenta :background dark-magenta))
    (font-lock-keyword-face (:foreground mid-blue :background dark-blue))
