@@ -467,7 +467,7 @@ For example, this function transforms (a 'b c) into a (list a 'b c)."
    (shr-text (:inherit 'default))
    (smerge-base (:extend t :background dark-green))
    (smerge-lower (:extend t :background dark-green))
-   (smerge-markers (:extend t :background black))
+   (smerge-markers (:inherit font-lock-doc-face))
    (smerge-upper (:extend t :background dark-red))
    (straight-process-command (:inherit font-lock-function-name-face))
    (straight-process-error (:inherit 'diff-error))
