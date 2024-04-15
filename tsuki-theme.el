@@ -393,7 +393,7 @@ For example, this function transforms (a 'b c) into a (list a 'b c)."
    (message-header-xheader (:foreground mid-blue))
    (message-mml (:foreground mid-green))
    (message-separator (:foreground light-blue))
-   (mini-popup-border (:inherit 'window-divider))
+   (mini-popup-border (:foreground light-blue :background light-blue))
    (minibuffer-prompt (:inherit font-lock-type-face))
    (mm-command-output (:foreground dark-green))
    (mm-uu-extract (:extend t :foreground white :background dark-green))
