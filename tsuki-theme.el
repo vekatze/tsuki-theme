@@ -475,6 +475,8 @@ For example, this function transforms (a 'b c) into a (list a 'b c)."
    (straight-process-command (:inherit font-lock-function-name-face))
    (straight-process-error (:inherit 'diff-error))
    (success (:foreground mid-green :background dark-green))
+   (tab-bar (:inherit 'mode-line))
+   (tab-line (:inherit 'mode-line))
    (tabulated-list-fake-header (:weight 'bold :underline t :overline t))
    (tool-bar (:box (:line-width 1 :style 'released-button) :foreground black :background white))
    (tooltip (:foreground white :background dark-blue :box (:color mid-blue :line-width 1)))
