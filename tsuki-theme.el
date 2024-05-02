@@ -16,9 +16,7 @@
                    (file-name-directory load-file-name))))
 
 (defun tsuki-theme--semiquote (ast)
-  "Constructs an \"evaluatable\" version of given AST.
-
-For example, this function transforms (a 'b c) into a (list a 'b c)."
+  "Constructs an \"evaluatable\" version of given AST."
   (if (and (listp ast) (not (eq (car ast) 'quote)))
       (cons 'list (mapcar #'tsuki-theme--semiquote ast))
     ast))
@@ -110,13 +108,15 @@ For example, this function transforms (a 'b c) into a (list a 'b c)."
    (all-the-icons-yellow (:foreground mid-orange))
    (dgi-commit-message-face (:foreground nibi))
    (ansi-color-black (:foreground black :background black))
-   (ansi-color-blue (:foreground dark-blue :background dark-blue))
+   (ansi-color-blue (:foreground mid-blue :background mid-blue))
+   (ansi-color-green (:foreground mid-green :background dark-green))
+   (ansi-color-bold (:weight 'bold))
    (ansi-color-bright-black (:foreground black :background black))
-   (ansi-color-bright-blue (:foreground dark-blue :background dark-blue))
+   (ansi-color-bright-blue (:foreground mid-blue :background mid-blue))
    (ansi-color-bright-cyan (:foreground light-blue :background light-blue))
-   (ansi-color-bright-green (:foreground mid-green :background mid-green))
+   (ansi-color-bright-green (:foreground mid-green :background dark-green))
    (ansi-color-bright-magenta (:foreground mid-magenta :background mid-magenta))
-   (ansi-color-bright-red (:foreground mid-red :background mid-red))
+   (ansi-color-bright-red (:foreground mid-red :background dark-red))
    (ansi-color-bright-white (:foreground white :background white))
    (ansi-color-bright-yellow (:foreground mid-green :background mid-green))
    (ansi-color-cyan (:foreground mid-blue :background mid-blue))
