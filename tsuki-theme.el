@@ -167,6 +167,7 @@
    (dired-broken-symlink (:weight 'bold :inherit 'error))
    (dired-directory (:inherit font-lock-keyword-face))
    (edebug-disabled-breakpoint (:extend t :background dark-green))
+   (eglot-highlight-symbol-face (:weight 'bold :underline (:style 'line)))
    (eldoc-box-body (:foreground mid-blue :background dark-blue))
    (eldoc-box-border (:background mid-blue))
    (embark-verbose-indicator-title (:inherit 'mode-line-active))
