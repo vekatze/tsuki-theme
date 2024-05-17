@@ -73,6 +73,7 @@
   tsuki-theme-palette
   ((all-the-icons-blue (:foreground mid-blue))
    (all-the-icons-blue-alt (:foreground mid-blue))
+   (all-the-icons-completion-dir-face (:inherit font-lock-keyword-face))
    (all-the-icons-cyan (:foreground mid-blue))
    (all-the-icons-cyan-alt (:foreground mid-blue))
    (all-the-icons-dblue (:foreground mid-blue))
@@ -402,6 +403,8 @@
    (mode-line-active (:inherit 'mode-line))
    (mode-line-highlight (:background mid-blue))
    (mode-line-inactive (:foreground mid-blue :background dark-blue :box (:color mid-blue :line-width 1)))
+   (nerd-icons-dired-dir-face (:inherit font-lock-keyword-face))
+   (nerd-icons-completion-dir-face (:inherit font-lock-keyword-face))
    (nobreak-hyphen (:foreground light-blue))
    (ns-marked-text-face (:underline white))
    (ns-unmarked-text-face (:underline black))
