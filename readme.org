@@ -22,8 +22,6 @@ Please use [[https://github.com/radian-software/straight.el][straight.el]] or so
 
 ** Pros
 - Extensive use of background colors for faster structure recognition (YMMV)
-- Tetradically chosen colors for better contrast
-  - e.g. ~blue = #78c8f0~ derives ~magenta = #dc78f0, orange = #f0a078, green = #8cf078~
 - Great Kawaii Experience
 
 ** Cons
@@ -46,8 +44,6 @@ If you're using [[https://github.com/muffinmad/emacs-mini-frame][mini-frame]], y
   - generating faces
 - [[https://github.com/nashamri/spacemacs-theme][nashamri/spacemacs-theme]]
   - the idea of showing syntactic constructs with colored background
-- [[https://www.canva.com/colors/color-wheel/][Color wheel]]
-  - choosing tetradic colors
 
 ** See Also
 - [[https://github.com/vekatze/ruri][vekatze/ruri]]
