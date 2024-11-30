@@ -1,12 +1,6 @@
 * Tsuki Theme for Emacs
 
-#+begin_quote
-冥きより冥き道にぞ入りぬべき遥かに照らせ山の端の月
-#+end_quote
-
-Tsuki is a color theme for Emacs. A set of reflective colors that lights us into satori.
-
-[[/screenshots/haskell.png?raw=true]]
+[[/screenshots/neut.png?raw=true]]
 
 ** Installation
 Please use [[https://github.com/radian-software/straight.el][straight.el]] or something like that.
@@ -20,31 +14,6 @@ Please use [[https://github.com/radian-software/straight.el][straight.el]] or so
   (load-theme 'tsuki t))
 #+end_src
 
-** Pros
-- Extensive use of background colors for faster structure recognition (YMMV)
-- Great Kawaii Experience
-
-** Cons
-- Works only in GUI
-- External package support is limited
-  - PRs are welcomed
-
-** Notes
-*** mini-frame
-If you're using [[https://github.com/muffinmad/emacs-mini-frame][mini-frame]], you may want to do something like this:
-
-#+begin_src emacs-lisp
-(setq mini-frame-internal-border-color (tsuki-theme-get-color 'mid-blue tsuki-theme-palette))
-#+end_src
-
 ** Acknowledgements
 - [[https://github.com/tee3/unobtrusive-magit-theme][tee3/unobtrusive-magit-theme]]
   - magit-related faces
-- [[https://github.com/jasonm23/autothemer][jasonm23/autothemer]]
-  - generating faces
-- [[https://github.com/nashamri/spacemacs-theme][nashamri/spacemacs-theme]]
-  - the idea of showing syntactic constructs with colored background
-
-** See Also
-- [[https://github.com/vekatze/ruri][vekatze/ruri]]
-  - the mode-line in the screenshot
