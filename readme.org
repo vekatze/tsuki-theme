@@ -3,7 +3,7 @@
 [[/screenshots/neut.png?raw=true]]
 
 ** Installation
-Please use [[https://github.com/radian-software/straight.el][straight.el]] or something like that.
+Use [[https://github.com/radian-software/straight.el][straight.el]] or something:
 
 #+begin_src emacs-lisp
 ;; with straight.el
@@ -14,6 +14,6 @@ Please use [[https://github.com/radian-software/straight.el][straight.el]] or so
   (load-theme 'tsuki t))
 #+end_src
 
-** Acknowledgements
+** See Also
 - [[https://github.com/tee3/unobtrusive-magit-theme][tee3/unobtrusive-magit-theme]]
-  - magit-related faces
+  - Adapted Magit-related faces
