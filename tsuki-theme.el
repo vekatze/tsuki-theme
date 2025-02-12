@@ -270,7 +270,7 @@
    `(holiday ((t (:background ,dark-orange))))
    `(homoglyph ((t (:foreground ,light-blue))))
    `(ibuffer-locked-buffer ((t (:foreground ,light-orange))))
-   `(ido-indicator ((t (:width 'condensed :foreground ,mid-green :background ,light-red))))
+   `(ido-indicator ((t (:foreground ,mid-green :background ,light-red))))
    `(ido-only-match ((t (:foreground ,dark-green))))
    `(ido-subdir ((t (:foreground ,light-red))))
    `(info-menu-star ((t (:foreground ,light-red))))
