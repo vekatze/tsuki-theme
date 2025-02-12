@@ -354,7 +354,7 @@
    `(magit-keyword ((t (:inherit default))))
    `(magit-log-author ((t (:inherit change-log-name))))
    `(magit-log-date ((t (:inherit change-log-date))))
-   `(magit-log-graph ((t (:inherit default))))
+   `(magit-log-graph ((t (:foreground ,kuchiba))))
    `(magit-mode-line-process ((t (:inherit mode-line-emphasis))))
    `(magit-mode-line-process-error ((t (:inherit error))))
    `(magit-process-ng ((t (:inherit error))))
