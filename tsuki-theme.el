@@ -25,6 +25,7 @@
     (nibi . "#538aa6")
     (kuchiba . "#a66f53")
 
+    (light-black . "#333333")
     (light-blue . "#a8d8f0")
     (light-magenta . "#e4a8f0")
     (light-orange . "#f0c0a8")
@@ -54,6 +55,7 @@
 (let* ((white (tsuki-theme-get-color 'white tsuki-theme-palette))
        (gray (tsuki-theme-get-color 'gray tsuki-theme-palette))
        (black (tsuki-theme-get-color 'black tsuki-theme-palette))
+       (light-black (tsuki-theme-get-color 'light-black tsuki-theme-palette))
 
        (yoru (tsuki-theme-get-color 'yoru tsuki-theme-palette))
 
@@ -372,7 +374,7 @@
    `(magit-section-heading ((t (:inherit font-lock-type-face))))
    `(magit-section-heading-secondary-heading ((t (:inherit magit-section-heading-selection))))
    `(magit-section-heading-selection ((t (:weight bold))))
-   `(magit-section-highlight ())
+   `(magit-section-highlight ((t (:background ,light-black :extend t))))
    `(magit-sequence-done ((t (:inherit success))))
    `(magit-sequence-drop ((t (:inherit error))))
    `(magit-sequence-head ((t (:inherit default :weight bold))))
