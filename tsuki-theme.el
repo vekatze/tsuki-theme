@@ -188,6 +188,7 @@
    `(eglot-highlight-symbol-face ((t (:weight bold :underline (:style line)))))
    `(eldoc-box-body ((t (:foreground ,mid-blue :background ,dark-blue))))
    `(eldoc-box-border ((t (:background ,mid-blue))))
+   `(elpaca-info-package ((t (:inherit font-lock-keyword-face))))
    `(embark-verbose-indicator-title ((t (:inherit mode-line-active))))
    `(embark-verbose-indicator-title ((t (:inherit mode-line-active))))
    `(epa-field-body ((t (:slant italic :foreground ,light-blue))))
