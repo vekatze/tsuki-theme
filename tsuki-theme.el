@@ -253,6 +253,8 @@
    `(git-commit-overlong-summary ((t (:inherit warning))))
    `(git-commit-pseudo-header ((t (:inherit log-edit-unknown-header))))
    `(git-commit-summary ((t (:inherit log-edit-summary))))
+   `(git-timemachine-minibuffer-author-face ((t (:inherit font-lock-constant-face))))
+   `(git-timemachine-minibuffer-detail-face ((t (:inherit font-lock-keyword-face))))
    `(glyphless-char ((t (:height 0.6))))
    `(gnus-emphasis-highlight-words ((t (:foreground ,mid-green :background ,black))))
    `(gnus-emphasis-strikethru ((t (:strike-through t))))
