@@ -288,6 +288,7 @@
    `(info-title-2 ((t (:inherit info-title-3))))
    `(info-title-3 ((t (:inherit info-title-4))))
    `(info-title-4 ((t (:weight bold :inherit font-lock-keyword-face))))
+   `(internal-border ((t (:background ,mid-blue))))
    `(isearch ((t (:foreground ,mid-red :background ,dark-red))))
    `(isearch-fail ((t (:background ,dark-orange))))
    `(isearch-group-1 ((t (:foreground ,dark-red :background ,light-magenta))))
